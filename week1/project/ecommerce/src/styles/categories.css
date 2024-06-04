@@ -1,0 +1,22 @@
+.catContainer {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.category {
+  margin: 10px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+.category.active {
+  background-color: rgb(22, 85, 210);
+  color: #f2f2f2;
+}
